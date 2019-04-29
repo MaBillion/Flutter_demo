@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './View/ExpansionTileDemo.dart';
+import './View/ExpansionPanelListDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
     Widget build(BuildContext context) {
         return MaterialApp(
             title: 'ExpansionTileDemo',
-            home: ExpansionTileDemo(),
+            home: ExpansionPanelListDemo(),
             theme: ThemeData.dark(),
         );
     }
